@@ -9,7 +9,7 @@ body {
   width: 100ww;
   height: 100vh;
   overflow: hidden;
-  background: #0f0f0f;
+  background: rgba(0, 128, 0, 0.3);
 }
 
 .container {
