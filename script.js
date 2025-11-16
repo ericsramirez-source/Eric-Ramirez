@@ -33,5 +33,4 @@ galleryContainer.addEventListener("mousemove", (e) => {
   indicator.style.left = `${
     e.clientX - galleryContainer.getBoundingClientRect().left()
   }px;
-  });
 });
