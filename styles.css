@@ -6,7 +6,7 @@
 
 html, 
 body {
-  width: 100ww;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   background: rgba(0, 0, 0);
