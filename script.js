@@ -13,7 +13,7 @@ const updateGalleryItems = () => {
       flex = hoverItemFlex;
     }
     
-    item.styles. flex = flex;
+    item.style. flex = flex;
   });
 };
 
@@ -30,7 +30,7 @@ galleryItems.forEach((item) => {
 });
 
 galleryContainer.addEventListener("mousemove", (e) => {
-  indicator.styles.left = `${
+  indicator.style.left = `${
     e.clientX - galleryContainer.getBoundingClientRect().left()
   }px;
 });
