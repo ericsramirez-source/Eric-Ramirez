@@ -31,6 +31,6 @@ galleryItems.forEach((item) => {
 
 galleryContainer.addEventListener("mousemove", (e) => {
   indicator.style.left = `${
-    e.clientX - galleryContainer.getBoundingClientRect().left
+    e.clientX - galleryContainer.getBoundingClientRect().left()
   }px`;
 });
